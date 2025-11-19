@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pola-makan-sehat",
+    "title": "Cara Menjaga Pola Makan Sehat",
+    "date": "2025-11-01",
+    "excerpt": "Langkah sederhana menjaga pola makan sehat untuk tubuh lebih bugar.",
+    "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+    "content": "<p>Pola makan sehat dimulai dari keseimbangan nutrisi harian seperti protein, karbohidrat, vitamin, dan mineral.</p>"
+  },
+  {
+    "id": "kapan-ke-dokter",
+    "title": "Kapan Harus ke Dokter?",
+    "date": "2025-11-03",
+    "excerpt": "Kenali tanda-tanda kapan tubuh membutuhkan pemeriksaan profesional.",
+    "image": "https://images.unsplash.com/photo-1579154204601-01588f351e5b",
+    "content": "<p>Bila demam lebih dari 2 hari, sesak napas, nyeri hebat, atau perubahan fisik ekstrem, segera periksa ke dokter.</p>"
+  },
+  {
+    "id": "manfaat-vitamin",
+    "title": "Manfaat Vitamin Untuk Tubuh",
+    "date": "2025-10-28",
+    "excerpt": "Penjelasan singkat tentang beberapa vitamin yang penting.",
+    "image": "https://images.unsplash.com/photo-1580281808633-1e97f5fcd7e2",
+    "content": "<p>Vitamin membantu metabolisme, kesehatan kulit, imun tubuh, dan fungsi saraf.</p>"
+  },
+  {
+    "id": "tips-imun",
+    "title": "5 Tips Meningkatkan Imun Tubuh",
+    "date": "2025-09-15",
+    "excerpt": "Langkah praktis untuk meningkatkan daya tahan tubuh.",
+    "image": "https://images.unsplash.com/photo-1535914254981-b5012eebbd15",
+    "content": "<p>Tidur cukup, makan sayur, olahraga, kelola stres, dan minum air yang cukup.</p>"
+  },
+  {
+    "id": "sehat-mental",
+    "title": "Pentingnya Kesehatan Mental",
+    "date": "2025-08-20",
+    "excerpt": "Kesehatan mental sama pentingnya dengan fisik.",
+    "image": "https://images.unsplash.com/photo-1520779986338-1e0dfe59c0b2",
+    "content": "<p>Kesehatan mental penting untuk produktivitas, ketenangan, dan kualitas hidup.</p>"
+  }
+]

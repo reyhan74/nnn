@@ -1,0 +1,8 @@
+.hero {
+    height: 50vh;
+    background: url("https://source.unsplash.com/1600x900/?medical,health") center/cover no-repeat;
+}
+.hero h1, 
+.hero p {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}

@@ -1,0 +1,96 @@
+:root{
+  --primary: #138D75;    /* hijau medis */
+  --muted: #6c757d;
+  --bg: #f8fbfb;
+  --card: #ffffff;
+  --glass: rgba(255,255,255,0.6);
+}
+
+/* Dark theme vars (applied via .dark on <html>) */
+html.dark {
+  --primary: #66c2a5;
+  --muted: #adb5bd;
+  --bg: #0b0f12;
+  --card: #0f1720;
+  --glass: rgba(255,255,255,0.03);
+  color-scheme: dark;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, var(--bg), #ffffff);
+  color: #0d1b18;
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* navbar theme */
+.navbar-theme{
+  background: linear-gradient(90deg,var(--primary), #0ea5a1);
+  color: white;
+}
+.navbar-theme .navbar-brand .brand-mark{
+  width:34px;height:34px;border-radius:8px;background:#fff;color:var(--primary);
+  display:inline-flex;align-items:center;justify-content:center;font-weight:700;
+}
+.navbar-theme .nav-link{color:rgba(255,255,255,0.92)}
+.navbar-theme .nav-link.active{font-weight:600}
+
+/* hero */
+.hero{
+  height:60vh;
+  background: url("https://source.unsplash.com/1600x900/?medical,healthcare") center/cover no-repeat;
+  position:relative;
+  display:flex;align-items:center;justify-content:center;
+}
+.hero::after{
+  content:"";
+  position:absolute;inset:0;background:linear-gradient(0deg, rgba(6,20,16,0.5), rgba(6,20,16,0.1));
+}
+.hero .container{position:relative;z-index:2}
+.btn-cta{
+  background:var(--card); color: var(--primary); border: none; padding: .6rem 1.1rem;
+  border-radius: 999px; box-shadow: 0 6px 18px rgba(19,141,117,0.12);
+}
+
+/* cards */
+.card{
+  background: var(--card);
+  border-radius:12px;
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+.card.highlight{border: 1px solid rgba(0,0,0,0.04)}
+.card:hover{transform: translateY(-6px); box-shadow: 0 12px 30px rgba(2,6,23,0.08)}
+
+/* Artikel list */
+.article-card img{height:220px;object-fit:cover;border-top-left-radius:12px;border-top-right-radius:12px;}
+.article-card .card-body{padding:1rem}
+
+/* footer */
+.footer-theme{
+  background: linear-gradient(180deg, rgba(19,141,117,0.06), transparent);
+  color:var(--muted);
+  border-top:1px solid rgba(0,0,0,0.04);
+}
+
+/* utility */
+.container{max-width:1100px}
+.text-primary{color:var(--primary) !important}
+.min-vh-75{min-height:75vh}
+
+/* responsive tweaks */
+@media (max-width:768px){
+  .hero{height:45vh}
+  .article-card img{height:160px}
+}
+
+/* link and interactive */
+a{transition: color .15s ease}
+.nav-link{cursor:pointer}
+
+/* dark-mode adjustments */
+html.dark body{background: linear-gradient(180deg, #07110f, #071418); color: #e6f6f1}
+html.dark .navbar-theme{background: linear-gradient(90deg,#042826,#0a3b36)}
+html.dark .btn-cta{background:#07241f;color:var(--primary)}
